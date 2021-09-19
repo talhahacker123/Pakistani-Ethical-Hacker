@@ -6,6 +6,7 @@ import socket
 import subprocess
 import requests
 import os  
+@st.cache
 def home():
     #  st.markdown('''# Home
 #   ('This is home page')''')
